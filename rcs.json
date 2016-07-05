@@ -2,7 +2,7 @@
     "room": "Electro Dubstep & Techno",
     "author": "SadUser",
     "icon": null,
-    "css": null,
+    "css": "https://raw.githubusercontent.com/SadUser/EDT/master/css.css",
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
