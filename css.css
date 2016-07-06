@@ -1,4 +1,6 @@
-/* SadUser
-.id-3924364 {
-background: url("https://cdn.radiant.dj/rcs/icons/radiant/admin.png") !important;
+/* SadUser */
+[data-cid^="3924364-"] .msg .from .icon-chat-bouncer, #user-lists .list.room .id-3703511 .icon-chat-bouncer {
+    background: url("https://cdn.radiant.dj/rcs/icons/radiant/admin.png") !important;
+    transform: rotate(90deg) !important;
+    margin-left: 1px !important;
 }
