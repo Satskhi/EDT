@@ -1,5 +1,5 @@
 /* SadUser */
-[data-cid^="3924364-"] .msg .from .icon-chat-bouncer, #user-lists .list.room .id-3703511 .icon-chat-bouncer {
+[data-cid^="3924364-"] .msg .from .icon-chat-host, #user-lists .list.room .id-3703511 .icon-chat-host {
     background: url("https://cdn.radiant.dj/rcs/icons/radiant/admin.png") !important;
     transform: rotate(90deg) !important;
     margin-left: 1px !important;
