@@ -11,18 +11,30 @@ background-size: 16px auto !important;
 
 color: #42a5dc !important;
 }
+
+[data-cid^="3924364-"] .badge-box .bdg {
+
+border-radius: 5px !important;
+
+background-image: url("http://i.imgur.com/OHuIHbY.png") !important;
+
+background-repeat: no-repeat !important;
+
 /* <-- !VØvo.๖ۣۜDoidø Δ¹ */
 
 
 /* 4SharedPRO --> */
+
 [data-cid^="3424833-"] .badge-box .bdg {
     background-image: url("http://i.imgur.com/fA1NtWn.gif") !important;
     
     background-repeat: round !important;
 }
+
 /* <-- 4SharedPRO */
 
 /* Satskhi --> */
+
 [data-cid^="4405644-"] .msg .from .un {
 
 background: url("http://i.imgur.com/p9j9onO.gif") !important;
@@ -44,4 +56,5 @@ background-image: url("http://i.imgur.com/fLxBUZz.gif") !important;
 
 background-repeat: round !important;
 }
+
 /* <-- Satskhi */
