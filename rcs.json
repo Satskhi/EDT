@@ -27,7 +27,7 @@
         "user": null
     },
     "images": {
-        "background": "https://raw.githubusercontent.com/SadUser/EDT/master/BackgroundEDT2.5.jpg",
+        "background": null,
         "playback": "https://raw.githubusercontent.com/SadUser/EDT/master/PlaybackEDT2.0.png",
         "admin": null,
         "ambassador": null,
