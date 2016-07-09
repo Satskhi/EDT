@@ -21,7 +21,7 @@ color: #42a5dc !important;
 }
 /* <-- 4SharedPRO */
 
-/* SΔtskhi Teste */
+/* Satskhi --> */
 [data-cid^="4453527-"] .msg .from .un {
 
 background: url("http://i.imgur.com/0v3jwWq.gif") !important;
@@ -41,6 +41,8 @@ border-radius: 5px !important;
 background-image: url("http://i.imgur.com/BsAOPLJ.gif") !important;
 
 background-repeat: round !important;
+
+background-size: 30px !important;
 }
 #user-rollover.id-4453527 .thumb {
    border-color: #ffc125 !important;
@@ -51,6 +53,8 @@ background-repeat: round !important;
 background-image: url("http://i.imgur.com/xNlKi1f.gif") !important;
 
 background-repeat: round !important;
+
+background-size: 30px !important;
 }
 #user-rollover.id-4453527 .info .role i {
 
@@ -63,4 +67,4 @@ background-size: 16px auto !important;
 color: #40a0ca !important;
 }
 
-/* SΔtskhi */
+/* <-- Satskhi */
