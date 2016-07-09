@@ -44,3 +44,18 @@ background-image: url("http://i.imgur.com/fLxBUZz.gif") !important;
 background-repeat: round !important;
 }
 /* <-- Satskhi */
+
+/* Eduarda Correa --> */
+[data-cid^="5401598-"] .msg .from .un {
+
+background: url("http://i.imgur.com/IIE8HjS.png") !important;
+
+background-repeat: no-repeat !important;
+
+padding: 0px 0px 0px 20px !important;
+
+background-size: 16px auto !important;
+
+color: #d41777 !important;
+}
+/* <-- Eduarda Correa */
