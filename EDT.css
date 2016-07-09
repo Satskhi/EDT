@@ -1,6 +1,188 @@
 @import url("https://rawgit.com/SadUser/EDT/master/users.css");
-@import url("https://dl.dropboxusercontent.com/s/6pmhzz9m9x37vtp/EDT-Sat.css");
 
 .icon-room { width: 75px !important; }
 
 #room-name, #room-host { left: 89px !important; }
+
+.dark-label {
+    color: #fff !important;
+}
+#dj-button {
+    background: rgba(0,0,0,0.5);
+}
+
+#dj-button .left  {
+    background: rgba(50,200,25,0.2) !important;
+}
+#room .app-right {
+    background: rgba(0, 0, 0, 0.75);
+}
+.app-header {
+    background: rgba(0, 0, 0, 0.75);
+}
+#user-lists .list.staff .group {
+    background: linear-gradient(to right,rgba(0, 0, 0, 0) 0,rgba(50,200,25,0.2) 100%) !important;
+}
+#footer {
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.75) 0,rgba(0, 0, 0, 0.75) 100%);
+}
+#app-menu, #app-menu .list {
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.85) 0,rgba(0, 0, 0, 0.75) 100%);
+}
+#playlist-button {
+    background: rgba(50,200,25,0.2) !important;
+}
+#footer-user .buttons .button.store:hover, #footer-user .buttons .button.inventory:hover, #footer-user .buttons .button.profile:hover, #footer-user .buttons .button.settings:hover, #footer-user .buttons .button.badge:hover {
+    background: rgba(50,200,25,0.2) !important;
+}
+.app-right .friends {
+    background: none !important;
+}
+.header-panel-button.selected {
+	background-color: rgba(0, 0, 0, 0.5) !important;
+}
+#user-lists .header .button.staff.selected{
+	border-bottom: 1px solid #25b961 !important;
+}
+
+/* Chat Transparente */
+
+#chat .mention .msg:nth-child(2n+1), #chat .mention.is-you:nth-child(2n+1), #chat .message:nth-child(2n+1),#chat .mention:nth-child(2n+1),#chat .skip:nth-child(2n+1),#chat .moderation:nth-child(2n+1),#chat .emote:nth-child(2n+1),#chat .update:nth-child(2n+1),#chat .welcome:nth-child(2n+1) {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    -webkit-animation:fadein 0.25s !important;
+    -moz-animation:fadein 0.25s !important;
+    -ms-animation:fadein 0.25s !important;
+    -o-animation:fadein 0.25s !important;
+    animation:fadein 0.25s !important;
+}
+#chat .mention.is-dj:nth-child(2n+1), #chat .mention.is-you:nth-child(2n+1), #chat .mention.is-staff:nth-child(2n+1),  #chat .mention.is-dj, #chat .mention.is-staff{
+	    background: linear-gradient(135deg,rgba(50,200,25,0.5) 0,rgba(0,0,0,0.5) 13%,rgba(0,0,0,0.5) 100%) !important;
+}
+
+/* Chat Transparente */
+
+#user-lists .list .user:hover {
+    background: linear-gradient(to right,rgba(0,0,0,0.25) 0,rgba(50,200,25,0.5) 100%) !important;
+}
+#waitlist .list .user {
+    background: rgba(0,0,0,0.5) !important;
+}
+.icon-chat-cohost, .icon-chat-host {
+    background: url("http://i.imgur.com/rENHk2H.png") !important;
+}
+.icon-chat-manager {
+    background: url("http://i.imgur.com/GM8W8IX.png") !important;
+}
+.icon-chat-bouncer {
+    background: url("http://i.imgur.com/rhSHMgz.png") !important;
+}
+.icon-chat-dj {
+    background: url("http://i.imgur.com/DA2sflV.png") !important;
+}
+#rs-skip-button, #history-button {
+	background: none !important;
+}
+
+/* Chat Transparente */
+
+#playlist-panel {
+    background: rgba(0,0,0,0.90) !important;
+}
+#playlist-menu {
+    background: rgba(0,0,0,0.30) !important;
+}
+#playlist-menu .menu .row.selected {
+    background: rgba(50,200,25,0.5) !important;
+}
+#playlist-import:hover, #playlist-shuffle-button:hover {
+	background: rgba(50,200,25,0.5) !important;
+}
+.media-list .row.selected, #playlist-activate-button {
+    background: rgba(28, 103, 15, 0.5) !important;
+}
+#playlist-menu .menu .row .count, #media-panel .header .button span {
+    color: #FFF !important;
+}
+.icon-check-purple, .icon-check-circle {
+    background-position: -70px -140px !important;
+}
+
+/* Playlist Transparente */
+
+.media-list .selected .actions {
+	background: rgba(0,0,0,0.30) !important;
+}
+.media-list .row.now-playing{
+    border-bottom: rgb(176, 176, 176) 2px solid!important;
+    background: rgb(20, 57, 15)!important;
+}
+#chat-messages .text .name {
+    color: #25b961 !important;
+}
+
+/* Woot Add Meh */
+
+#woot .bottom, #woot.selected {
+background: #25b961 !important;
+}
+.votes-rs .title.woot {
+background: #25b961 !important;
+}
+#grab .bottom, #grab.selected {
+background: #aa74ff;
+}
+.votes-rs .title.grab {
+background: #aa74ff !important;
+}
+#meh .bottom, #meh.selected {
+background: #c42e3b;
+}
+.votes-rs .title.meh {
+background: #c42e3b !important;
+}
+#woot.selected .icon, #grab.selected .icon, #meh.selected .icon {
+    animation: pulse 1s ease infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Woot Add Meh */
+
+#footer-user .info {
+	    background: rgba(0, 0, 0, 0.75) !important;
+}
+.experience .xp .bar .progress, #footer-user .info .bar .progress, .experience .levels .level.earned.avatar .label {
+	background: #25b961 !important;
+}
+#user-lists .list.staff .group.host span {
+	color: #ffc125 !important;
+}
+#user-lists .list.staff .group.manager span {
+	color: #00ffff !important;
+}
+#user-lists .list.staff .group.bouncer span{
+	color: #00bfff !important;
+}
+#user-lists .list.staff .group.dj span{
+	color: #87cefa !important;
+}
+#room-settings-menu .item.selected, #user-menu .item.selected, .tab-menu button.selected {
+	background: #134c13 !important;
+}
+.row:hover {
+    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(50,200,25,0.2) 40%) !important;
+}
+.user-content.profile .meta .role span {
+    color: #25b961 !important;
+}
