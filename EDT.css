@@ -35,3 +35,6 @@
 #footer-user .buttons .button.store:hover, #footer-user .buttons .button.inventory:hover, #footer-user .buttons .button.profile:hover, #footer-user .buttons .button.settings:hover, #footer-user .buttons .button.badge:hover {
     background: rgba(50,200,25,0.2) !important;
 }
+#chat .cm:nth-child(2n+1) {
+    background: rgba(0, 0, 0, 0.75);
+}
