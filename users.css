@@ -20,3 +20,47 @@ color: #42a5dc !important;
     background-repeat: round !important;
 }
 /* <-- 4SharedPRO */
+
+/* SΔtskhi Teste */
+[data-cid^="4453527-"] .msg .from .un {
+
+background: url("http://i.imgur.com/0v3jwWq.gif") !important;
+
+background-repeat: no-repeat !important;
+
+padding: 0px 0px 0px 20px !important;
+
+background-size: 16px auto !important;
+
+color: #42a5dc !important;
+}
+[data-cid^="4453527-"] .badge-box .bdg {
+
+border-radius: 5px !important;
+
+background-image: url("http://i.imgur.com/BsAOPLJ.gif") !important;
+
+background-repeat: round !important;
+}
+#user-rollover.id-4453527 .thumb {
+   border-color: #ffc125 !important;
+}
+#user-rollover.id-4453527 .badge-box .bdg {
+   border-radius: 5px !important;
+
+background-image: url("http://i.imgur.com/xNlKi1f.gif") !important;
+
+background-repeat: round !important;
+}
+#user-rollover.id-4453527 .info .role i {
+
+background: url("http://i.imgur.com/0v3jwWq.gif") !important;
+
+background-repeat: no-repeat !important;
+
+background-size: 16px auto !important;
+
+color: #40a0ca !important;
+}
+
+/* SΔtskhi */
