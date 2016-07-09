@@ -1,3 +1,5 @@
 @import url("https://rawgit.com/SadUser/EDT/master/users.css");
 
 .icon-room { width: 75px !important; }
+
+#room-name, #room-host { left: 89px !important; }
