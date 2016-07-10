@@ -16,8 +16,11 @@ color: #42a5dc !important;
 /* 4SharedPRO --> */
 [data-cid^="3424833-"] .badge-box .bdg {
     background-image: url("http://i.imgur.com/fA1NtWn.gif") !important;
-    
     background-repeat: round !important;
+}
+[data-cid^="3424833-"] .msg .from .icon {
+    background-image: url("http://i.imgur.com/EmyFUK7.png") !important;
+    background-size: 15px !important;
 }
 /* <-- 4SharedPRO */
 
