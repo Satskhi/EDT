@@ -68,13 +68,15 @@ color: #40a0ca !important;
 }
 /* <-- SΔtskhi */
 
-/* EduSL --> */
+/* CHUCK --> */
 [data-cid^="4023220-"] .badge-box .bdg {
-    background-image: url("http://i.imgur.com/fA1NtWn.gif") !important;
+    background-image: url("http://i.imgur.com/Qmb4y2e.gif") !important;
     
     background-repeat: round !important;
+    
+    background-size: 16px auto !important;
 }
-/* <-- EduSL */
+/* <-- CHUCK */
 
 /* Satskhi --> */
 [data-cid^="4405644-"] .msg .from .un {
