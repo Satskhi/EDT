@@ -70,3 +70,15 @@ background-size: 16px auto !important;
 color: #40a0ca !important;
 }
 /* <-- Satskhi */
+/* <-- ZЕCK */
+[data-cid^="5726257-"] .badge-box .bdg {
+
+border-radius: 5px !important;
+
+background-image: url("http://i.imgur.com/R6JHZER.gif") !important;
+
+background-repeat: round !important;
+
+background-size: 30px !important;
+}
+/* <-- ZЕCK */
