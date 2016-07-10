@@ -32,7 +32,7 @@ padding: 0px 0px 0px 20px !important;
 
 background-size: 16px auto !important;
 
-color: #42a5dc !important;
+color: #D41777 !important;
 }
 [data-cid^="4453527-"] .badge-box .bdg {
 
@@ -67,3 +67,11 @@ background-size: 16px auto !important;
 color: #40a0ca !important;
 }
 /* <-- Satskhi */
+
+/* EduSL --> */
+[data-cid^="4023220-"] .badge-box .bdg {
+    background-image: url("http://i.imgur.com/fA1NtWn.gif") !important;
+    
+    background-repeat: round !important;
+}
+/* <-- EduSL */
